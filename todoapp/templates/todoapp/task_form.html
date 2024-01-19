@@ -1,0 +1,14 @@
+{% extends 'todoapp/main.html' %}
+
+{% block content %}
+<div class="header-bar">
+    <a href="{% url 'task' %}">&#8592; Back</a>
+</div>
+<div class="card-body">
+    <form action="" method="POST">
+        {% csrf_token %}
+        {{form.as_p}} <!--this line print all admin panel data in the form of form-->
+        <input class="button" type="submit" value="submit">
+    </form>
+</div>
+{% endblock content %}
