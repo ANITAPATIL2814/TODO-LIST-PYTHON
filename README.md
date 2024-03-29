@@ -21,6 +21,7 @@ This project is a simple Django application that provides a ToDo list with vario
 - Python
 - HTML
 - CSS
+- MySql
 
 ## Screenshots
 ![image](https://github.com/ANITAPATIL2814/TODO-LIST-PYTHON/assets/142707200/ccbfc92d-f9df-4bb4-8da7-2724385ac22d)
